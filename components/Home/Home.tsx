@@ -5,7 +5,7 @@ import OurPartner from './Partner/OurPartner'
 import Services from './Services/Services'
 import Testimonial from './Testimonial/Testimonial'
 
-const Home = () => {
+const HomePage = () => {
   return (
     <div>
         <Hero />
@@ -17,4 +17,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default HomePage;
