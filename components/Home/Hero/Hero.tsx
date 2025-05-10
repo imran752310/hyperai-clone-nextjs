@@ -16,7 +16,7 @@ const Hero = () => {
                 </p>
 
                 <div className="mt-8 flex flex-col sm:flex-row sm:justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
-                    <button className="bg-purple-700 text-white px-6 flex items-center rounded-sm hover:bg-purple-800 hover:text-white transition hover:animate-pulse">Get a Started
+                    <button className="cursor-pointer bg-purple-700 text-white px-6 flex items-center rounded-sm hover:bg-purple-800 hover:text-white transition hover:animate-pulse">Get a Started
                         <GoArrowUpRight />
                     </button>
                     <a href="#" className="flex items-center text-red border-2 border-white p-5 rounded-full hover:bg-white hover:text-purple-700 transition hover:animate-pulse hover:shadow-slate-100">
