@@ -46,10 +46,9 @@ const ServiceCard = () => {
               </p>
             </div>
             <div className="  bg-blue-900 text-white p-6 rounded-lg">
-              <p className="font-bold">Ready to Get Started?</p>
-              <p className="text-sm flex items-center gap-2">
-                <FaPhoneVolume /> +123-456-789
-              </p>
+              <button className="cursor-pointer text-black bg-white py-2 px-6 flex items-center rounded-sm hover:bg-purple-800 hover:text-white transition hover:animate-pulse">Learn more
+                                         <GoArrowUpRight />
+                                     </button>
             </div>
           </div>
         </div>
@@ -93,10 +92,9 @@ const ServiceCard = () => {
               </p>
             </div>
             <div className="  bg-blue-900 text-white p-6 rounded-lg">
-              <p className="font-bold">Ready to Get Started?</p>
-              <p className="text-sm flex items-center gap-2">
-                <FaPhoneVolume /> +123-456-789
-              </p>
+              <button className="cursor-pointer text-black bg-white py-2 px-6 flex items-center rounded-sm hover:bg-purple-800 hover:text-white transition hover:animate-pulse">Learn more
+                                         <GoArrowUpRight />
+                                     </button>
             </div>
           </div>
         </div>
