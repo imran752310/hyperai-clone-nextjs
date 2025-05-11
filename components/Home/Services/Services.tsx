@@ -6,7 +6,7 @@ import ServiceCard from './ServiceCard'
 
 const Services = () => {
   return (
-    <div className='w-[90%] h-[600] mx-auto bg-gradient-to-r from-gray-100 to-gray-200 text-white p-10 md:p-20 rounded-3xl'>
+    <div className='w-[95%]  mx-auto bg-gradient-to-r from-gray-100 to-gray-200 text-white  md:p-20 rounded-3xl'>
        <div className="  relative flex flex-col md:flex-row items-center justify-between ">
                 <div className="md:w-1/2">
                     <span className="text-purple-700 text-md font-bold">Our Services</span>
