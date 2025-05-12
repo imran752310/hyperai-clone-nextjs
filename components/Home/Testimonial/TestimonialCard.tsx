@@ -31,7 +31,7 @@ const TestimonialCarousel = () => {
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
-            <div className="flex flex-col justify-start hover:bg-purple-700 p-5 rounded-lg hover:text-white ">
+            <div className="flex flex-col justify-start hover:bg-purple-700 p-5 rounded-lg hover:text-white  ">
                 <p className="py-5">HyperAI revolutionized our operations with AI-driven automation. Our efficiency skyrocketed, & operational costs significantly decreased!</p>
 
               <div className="flex items-center gap-3">
@@ -44,7 +44,7 @@ const TestimonialCarousel = () => {
               />
               <div>
                 <h4>— Christopher Hayes</h4>
-                <p className="text-[8px]">Customer Experience Manage</p>
+                <p className="text-[8px] text-purple-700 hover:text-white">Customer Experience Manage</p>
               </div>
               </div>
             </div>
