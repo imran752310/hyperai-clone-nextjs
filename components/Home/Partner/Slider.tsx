@@ -15,7 +15,7 @@ const slides = [
 
 const SwiperCarousel = () => {
   return (
-    <div className="w-[90%] mx-auto my-10">
+    <div className="w-[90%] mx-auto my-20">
       <Swiper
         spaceBetween={20}
         centeredSlides={true}
