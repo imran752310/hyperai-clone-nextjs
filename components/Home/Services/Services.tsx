@@ -6,16 +6,16 @@ import ServiceCard from './ServiceCard'
 
 const Services = () => {
   return (
-    <div className='w-[95%]  mx-auto bg-gradient-to-r from-gray-100 to-gray-200 text-white  md:p-20 rounded-3xl'>
+    <div className='w-[95%]  mx-auto bg-gradient-to-r from-gray-100 to-gray-200 text-white  p-5 rounded-3xl'>
        <div className="flex flex-col md:flex-row items-center justify-between mt-5 ">
-                <div className="md:w-1/2 p-5">
+                <div data-aos="zoom-in-up" className="md:w-1/2 p-10 lg:p-5">
                     <span className="text-purple-700 text-md font-bold">Our Services</span>
                     <h1 className="text-4xl md:text-5xl text-black font-bold mt-4 ">
                         Let AI Take Your Business To The Next Level
                     </h1>
                   
                 </div>
-                <div className="mt-6 md:mt-0 md:w-1/2 p-5 ">
+                <div data-aos="zoom-in-up" className="mt-6 md:mt-0 md:w-1/2 p-5 ">
                     <p className="mt-4 text-lg text-gray-700">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
                         tellus, luctus nec ullamcorper mattis.

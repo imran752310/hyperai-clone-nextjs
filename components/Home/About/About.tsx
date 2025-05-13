@@ -4,7 +4,7 @@ import { RiLineChartFill } from "react-icons/ri";
 
 const About = () => {
   return (
-    <section className="w-[80%] mx-auto my-20 flex flex-col md:flex-row items-center py-16 gap-20">
+    <section className="w-[90%] mx-auto my-20 flex flex-col md:flex-row items-center py-16 gap-20">
       <div className="relative w-full md:w-1/2">
         <Image
           src="/image/howweare.webp"
@@ -20,7 +20,7 @@ const About = () => {
           data-aos="fade-right"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
-          className="lg:absolute bottom-10 left-[190px] text-center  bg-gradient-to-t from-blue-800 to-purple-500 text-white  rounded-lg sm:w-[73%]  shadow-lg"
+          className="lg:absolute bottom-10 left-[200px] text-center  bg-gradient-to-t from-blue-800 to-purple-500 text-white  rounded-lg lg:w-[63%]  shadow-lg"
         >
           <div className="p-6">
             <RiLineChartFill size={60} className="mx-auto m-4" />
