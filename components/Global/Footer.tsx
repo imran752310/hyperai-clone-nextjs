@@ -11,10 +11,15 @@ const Footer = () => {
         {/* colum 1  */}
         <div className="space-y-2">
           <div className="mt-8 w-[80%] mx-auto   text-gray-600  text-sm">
-            <Image src="/image/logo.webp" width={200} height={200} alt="AI User" className="rounded-lg pb-5" />
-                
+            <Image
+              src="/image/logo.webp"
+              width={200}
+              height={200}
+              alt="AI User"
+              className="rounded-lg pb-5"
+            />
+
             <p className="text-center text-white md:text-left">
-             
               Experience the SociaBiz Advantage – Empowering Social Success with
               Data-Driven Solutions.
             </p>
@@ -24,7 +29,7 @@ const Footer = () => {
                 href="#"
                 className="text-white  hover:text-gray-800 flex gap-2"
               >
-                <FaTwitter size={25}/>
+                <FaTwitter size={25} />
                 <FaFacebook size={25} />
                 <FaYoutube size={25} />
               </Link>
