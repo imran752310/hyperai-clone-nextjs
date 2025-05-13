@@ -20,7 +20,7 @@ const [isMobileMwnuOpen,  setIsMobileMenuOpen] = useState(false)
           <li className="cursor-pointer">Pages</li>
           <li className="cursor-pointer">Contact</li>
         </ul>
-        <div className="hidden md:flex items-center space-x-4">
+        <div  data-aos="fade-down" className="hidden md:flex items-center space-x-4">
           <FaPhoneVolume  className="text-purple-600" />
           <span>+123 (456) 789</span>
           <button className="bg-purple-700 text-white px-6 py-2 flex rounded-sm">Get a Quote 
@@ -34,11 +34,11 @@ const [isMobileMwnuOpen,  setIsMobileMenuOpen] = useState(false)
 
                {isMobileMwnuOpen && (
  <div className="fixed inset-0 transform transition-all duration-500 z-[1002]  w-full h-screen">
-                <div className="text-white   justify-center flex flex-col h-[400px] rounded-b-lg transform transition-all duration-500 delay-300 w-[100%] sm:w-[95%] bg-blue-900   space-y-6 z-[1050]">
+                <div  data-aos="fade-down"  className="text-white    justify-center flex flex-col h-[400px] rounded-b-lg transform transition-all duration-500 delay-300 w-[100%] sm:w-[95%] bg-blue-900   space-y-6 z-[1050]">
                    <CgClose
                     onClick={() => setIsMobileMenuOpen(!isMobileMwnuOpen)}
                     className="absolute cursor-pointer top-[0.7rem] right-[1rem] sm:w-8 w-6 h-6 text-white "/>
-  <ul className=" md:flex space-x-6 ml-10">
+  <ul  className=" md:flex space-x-6 ml-10">
           <li className="cursor-pointer">Home</li>
           <li className="cursor-pointer">About</li>
           <li className="cursor-pointer">Services</li>

@@ -5,7 +5,7 @@ import { IoIosPlay } from "react-icons/io";
 const Hero = () => {
     return (
         <section className="w-[90%]  mx-auto  flex flex-col md:flex-row items-center justify-between bg-gradient-to-r from-blue-500 to-purple-500 text-white p-10 md:p-20 rounded-3xl">
-            <div className="md:w-1/2">
+            <div data-aos="fade-right" className="md:w-1/2">
                 <span className="bg-purple-700 px-4 py-1 text-sm">Future of Marketing is Here</span>
                 <h1 className="text-4xl md:text-5xl font-bold mt-4">
                     Let AI Take Your Business To The Next Level
@@ -24,7 +24,7 @@ const Hero = () => {
                     </a>
                 </div>
             </div>
-            <div className="mt-6 md:mt-0 md:w-1/2 hidden lg:block flex justify-end">
+            <div data-aos="fade-left" className="mt-6 md:mt-0 md:w-1/2  lg:block flex justify-end">
                 <Image src="/image/hero.webp" width={500} height={500} alt="AI User" className="rounded-lg" />
             </div>
         </section>

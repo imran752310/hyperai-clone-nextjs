@@ -12,11 +12,16 @@ const About = () => {
             height={500} 
             alt="AI Developer" 
             className="rounded-lg shadow-lg my-5 lg:block"
+            data-aos="fade-right"
+     data-aos-offset="200"
+     data-aos-easing="ease-in-sine"
           />
-          <div className="lg:absolute bottom-10 left-[190px] text-center  bg-gradient-to-t from-blue-800 to-purple-500 text-white  rounded-lg sm:w-[73%]  shadow-lg">
+          <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" className="lg:absolute bottom-10 left-[190px] text-center  bg-gradient-to-t from-blue-800 to-purple-500 text-white  rounded-lg sm:w-[73%]  shadow-lg">
           <div className="p-6">
           <RiLineChartFill size={60} className="mx-auto m-4" />
-            <h3 className="text-xl font-bold">Grow Your Business with AI-Driven Solutions</h3>
+            <h3  className="text-xl font-bold">Grow Your Business with AI-Driven Solutions</h3>
             <p className="text-sm mt-2">HyperAI delivers intelligent solutions that automate, optimize, and accelerate your business. Stay ahead with cutting-edge AI designed for efficiency and innovation</p>
           </div>
             <div className="  bg-blue-900 text-white p-6 rounded-lg">
@@ -27,8 +32,11 @@ const About = () => {
         </div>
         <div className="w-full md:w-1/2">
           <h2 className="text-purple-700 text-md font-bold">WHO WE ARE</h2>
-          <h1 className="text-4xl font-bold mt-2">Where Intelligence Meets Acceleration</h1>
-          <p className="text-gray-600 mt-4">At HyperAI, we are redefining the future of artificial intelligence with cutting-edge technology that accelerates innovation. Our mission is to develop intelligent, scalable, and high-performance AI solutions that empower businesses to work smarter and faster. Whether it’s automation, machine learning, or data-driven decision-making, we push the boundaries of what AI can achieve. With a team of AI experts and a passion for technological excellence, HyperAI delivers next-generation solutions that drive real impact.</p>
+          <h1 data-aos="fade-up"
+     data-aos-offset="200" className="text-4xl font-bold mt-2">Where Intelligence Meets Acceleration</h1>
+          <p data-aos="fade-up"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" className="text-gray-600 mt-4">At HyperAI, we are redefining the future of artificial intelligence with cutting-edge technology that accelerates innovation. Our mission is to develop intelligent, scalable, and high-performance AI solutions that empower businesses to work smarter and faster. Whether it’s automation, machine learning, or data-driven decision-making, we push the boundaries of what AI can achieve. With a team of AI experts and a passion for technological excellence, HyperAI delivers next-generation solutions that drive real impact.</p>
           <ul className="mt-4 font-semibold space-y-2">
             <li className="flex items-center gap-2"><span className="text-purple-700">✔</span> High-Speed AI Solutions</li>
             <li className="flex items-center gap-2"><span className="text-purple-700">✔</span> Innovative & Future-Ready</li>

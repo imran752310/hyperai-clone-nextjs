@@ -10,7 +10,7 @@ const ServiceCard = () => {
     <div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
         {/* ServiceCard1  */}
-        <div className="p-2 my-5">
+        <div data-aos="zoom-in" data-aos-offset="200" className="p-2 my-5">
           <div className=" text-center bg-white   rounded-lg shadow-lg">
             <div className="p-6">
               <RiLineChartFill size={60} className="mx-auto text-purple-700 m-4" />
@@ -33,7 +33,7 @@ const ServiceCard = () => {
 
 
           {/* ServiceCard2  */}
-        <div className="p-2 my-5">
+        <div data-aos="zoom-in" data-aos-offset="300" className="p-2 my-5">
           <div className=" text-center  bg-gradient-to-t from-blue-800 to-purple-500 text-white  rounded-lg shadow-lg">
             <div className="p-6">
               <FaNetworkWired size={60} className="mx-auto m-4" />
@@ -56,7 +56,7 @@ const ServiceCard = () => {
 
         
           {/* ServiceCard3  */}
-       <div className="p-2 my-5">
+       <div data-aos="zoom-in" data-aos-offset="400" className="p-2 my-5">
           <div className=" text-center bg-white    rounded-lg shadow-lg">
             <div className="p-6">
               <RiLineChartFill size={60} className="mx-auto text-purple-700 m-4" />
@@ -79,7 +79,7 @@ const ServiceCard = () => {
 
 
           {/* ServiceCard1  */}
-        <div className="p-2 my-5">
+        <div data-aos="zoom-in" data-aos-offset="450" className="p-2 my-5">
           <div className=" text-center  bg-gradient-to-t from-blue-800 to-purple-500 text-white  rounded-lg shadow-lg">
             <div className="p-6">
              <LiaRobotSolid  size={60} className="mx-auto m-4" />
