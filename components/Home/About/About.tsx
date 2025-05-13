@@ -11,7 +11,7 @@ const About = () => {
             width={500} 
             height={500} 
             alt="AI Developer" 
-            className="rounded-lg shadow-lg hidden lg:block"
+            className="rounded-lg shadow-lg my-5 lg:block"
           />
           <div className="lg:absolute bottom-10 left-[190px] text-center  bg-gradient-to-t from-blue-800 to-purple-500 text-white  rounded-lg sm:w-[73%]  shadow-lg">
           <div className="p-6">

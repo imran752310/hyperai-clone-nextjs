@@ -24,7 +24,7 @@ const Hero = () => {
                     </a>
                 </div>
             </div>
-            <div className="mt-6 md:mt-0 md:w-1/2 flex justify-end">
+            <div className="mt-6 md:mt-0 md:w-1/2 hidden lg:block flex justify-end">
                 <Image src="/image/hero.webp" width={500} height={500} alt="AI User" className="rounded-lg" />
             </div>
         </section>

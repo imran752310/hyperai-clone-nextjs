@@ -34,11 +34,11 @@ const [isMobileMwnuOpen,  setIsMobileMenuOpen] = useState(false)
 
                {isMobileMwnuOpen && (
  <div className="fixed inset-0 transform transition-all duration-500 z-[1002]  w-full h-screen">
-                <div className="text-white   justify-center flex flex-col h-[400px] rounded-b-lg transform transition-all duration-500 delay-300 w-[80%] sm:w-[80%] bg-blue-900   space-y-6 z-[1050]">
+                <div className="text-white   justify-center flex flex-col h-[400px] rounded-b-lg transform transition-all duration-500 delay-300 w-[100%] sm:w-[95%] bg-blue-900   space-y-6 z-[1050]">
                    <CgClose
                     onClick={() => setIsMobileMenuOpen(!isMobileMwnuOpen)}
-                    className="absolute cursor-pointer top-[0.7rem] right-[1rem] sm:w-8 w-6 h-6 text-white "
-  <ul className=" md:flex space-x-6">
+                    className="absolute cursor-pointer top-[0.7rem] right-[1rem] sm:w-8 w-6 h-6 text-white "/>
+  <ul className=" md:flex space-x-6 ml-10">
           <li className="cursor-pointer">Home</li>
           <li className="cursor-pointer">About</li>
           <li className="cursor-pointer">Services</li>
