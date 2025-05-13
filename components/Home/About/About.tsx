@@ -11,9 +11,9 @@ const About = () => {
             width={500} 
             height={500} 
             alt="AI Developer" 
-            className="rounded-lg shadow-lg"
+            className="rounded-lg shadow-lg hidden lg:block"
           />
-          <div className="absolute bottom-10 left-[190px] text-center  bg-gradient-to-t from-blue-800 to-purple-500 text-white  rounded-lg w-[73%] shadow-lg">
+          <div className="lg:absolute bottom-10 left-[190px] text-center  bg-gradient-to-t from-blue-800 to-purple-500 text-white  rounded-lg sm:w-[73%]  shadow-lg">
           <div className="p-6">
           <RiLineChartFill size={60} className="mx-auto m-4" />
             <h3 className="text-xl font-bold">Grow Your Business with AI-Driven Solutions</h3>
