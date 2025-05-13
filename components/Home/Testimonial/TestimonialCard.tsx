@@ -46,7 +46,7 @@ const TestimonialCarousel = () => {
         keyBoardControl={true}
       >
         {slides.map((slide, index) => (
-          <div className="flex flex-col justify-start hover:bg-purple-700 p-5 rounded-lg hover:text-white  ">
+          <div key={index} className="flex flex-col justify-start hover:bg-purple-700 p-5 rounded-lg hover:text-white  ">
             <p className="py-5">
               HyperAI revolutionized our operations with AI-driven automation.
               Our efficiency skyrocketed, & operational costs significantly

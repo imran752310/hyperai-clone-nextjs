@@ -1,7 +1,5 @@
 import React from 'react'
 import { GoArrowUpRight } from 'react-icons/go'
-import { IoIosPlay } from 'react-icons/io'
-import Image from 'next/image'
 import ServiceCard from './ServiceCard'
 
 const Services = () => {
